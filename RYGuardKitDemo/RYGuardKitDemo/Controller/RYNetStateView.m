@@ -58,6 +58,7 @@
         .RYLabelTextColor([UIColor lightGrayColor])
         .RYLabelNumberOfLines(0)
         .RYLabelFont(14)
+        .RYLabelText(@"网络似乎断了，请刷新重试")
         .RYLabelTextAligment(NSTextAlignmentCenter);
     }
     return _netLabel;
