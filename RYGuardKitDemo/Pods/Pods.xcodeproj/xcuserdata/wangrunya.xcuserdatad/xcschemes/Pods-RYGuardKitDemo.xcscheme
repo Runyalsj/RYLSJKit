@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "84DF14CDCA7834801A68AB1BB8E917A2"
+               BlueprintIdentifier = "3632F248B2A9939B2A2BFD305DEC22E0"
                BlueprintName = "Pods-RYGuardKitDemo"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-RYGuardKitDemo.a">

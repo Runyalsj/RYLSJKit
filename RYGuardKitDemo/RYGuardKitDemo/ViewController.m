@@ -8,9 +8,11 @@
 
 #import "ViewController.h"
 #import "RYKitHear.h"
+#import "RYNetStateView.h"
 
 @interface ViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic ,strong) UITableView *tableView;
+@property (nonatomic ,strong) NSArray *dataSoureArr;
 @end
 
 @implementation ViewController
@@ -25,6 +27,14 @@
     return _tableView;
 }
 
+- (NSArray *)dataSoureArr {
+    if (!_dataSoureArr) {
+        _dataSoureArr = [NSArray array];
+    }
+    return _dataSoureArr;
+}
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setUpViews];
@@ -34,17 +44,30 @@
 
 - (void)setUpViews {
     [self.view addSubview:self.tableView];
+    //[self.tableView showNoDataView:self.dataSoureArr];
+    RYNetStateView *view = [[RYNetStateView alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    //[view showLoadFailedNoticeWithAction:@selector(tryRefresh) isWeb:false];
+    view.hidden = false;
+    view.tryButtonBlock = ^(UIButton *sender) {
+        NSLog(@"重新请求");
+    };
+    [self.tableView addSubview:view];
+}
+
+- (void)tryRefresh {
+    NSLog(@"重新尝试");
 }
 
 - (void)setLayouts {
     [self.tableView mas_remakeConstraints:^(MASConstraintMaker *make) {
-        make.edges.mas_equalTo(self.view);
+        //make.edges.mas_equalTo(self.view);
+        make.top.right.left.bottom.mas_equalTo(self.view);
     }];
 }
 
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return  20;
+    return  self.dataSoureArr.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

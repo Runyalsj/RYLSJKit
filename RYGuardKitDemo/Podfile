@@ -3,4 +3,7 @@
 
 target 'RYGuardKitDemo' do
  pod 'Masonry'
+ pod 'MJRefresh'
+ pod 'AFNetworking'
+ pod 'MBProgressHUD'
 end
