@@ -18,7 +18,6 @@
 @end
 
 
-
 @implementation RYNetStateView
 
 - (instancetype)initWithFrame:(CGRect)frame {

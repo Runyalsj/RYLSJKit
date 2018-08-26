@@ -95,7 +95,7 @@ Pod::Spec.new do |s|
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
    s.subspec 'Content' do |ss|
    ss.source_files = 'RYGuardKit/**/*.{h,m}'
-   ss.exclude_files = "RYGuardKit/RYKitHear.h"
+   ss.exclude_files = "RYGuardKitDemo/RYKitHear.h"
    ss.framework = "MapKit"
  end
 
