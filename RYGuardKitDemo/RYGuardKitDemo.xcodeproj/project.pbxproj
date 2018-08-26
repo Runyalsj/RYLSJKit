@@ -16,18 +16,18 @@
 		9BB76213213231130006474B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB76212213231130006474B /* main.m */; };
 		9BB7621D213231130006474B /* RYGuardKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB7621C213231130006474B /* RYGuardKitDemoTests.m */; };
 		9BB76228213231130006474B /* RYGuardKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB76227213231130006474B /* RYGuardKitDemoUITests.m */; };
-		9BB762CC2132FD680006474B /* UIImageView+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762B02132FD670006474B /* UIImageView+RYKit.m */; };
-		9BB762CD2132FD680006474B /* UITableView+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762B22132FD670006474B /* UITableView+RYKit.m */; };
-		9BB762CE2132FD680006474B /* UIView+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762B32132FD670006474B /* UIView+RYKit.m */; };
-		9BB762CF2132FD680006474B /* UILabel+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762B52132FD670006474B /* UILabel+RYKit.m */; };
-		9BB762D02132FD680006474B /* UIColor+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762B72132FD670006474B /* UIColor+RYKit.m */; };
-		9BB762D12132FD680006474B /* UITableViewCell+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762B92132FD670006474B /* UITableViewCell+RYKit.m */; };
-		9BB762D22132FD680006474B /* UIButton+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762BC2132FD670006474B /* UIButton+RYKit.m */; };
-		9BB762D32132FD680006474B /* RYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762C12132FD670006474B /* RYConstants.m */; };
-		9BB762D42132FD680006474B /* RYKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB762C32132FD680006474B /* RYKit.bundle */; };
-		9BB762D52132FD680006474B /* HeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762C52132FD680006474B /* HeaderModel.m */; };
-		9BB762D62132FD680006474B /* RYNetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762C82132FD680006474B /* RYNetWorkHelper.m */; };
-		9BB762D72132FD680006474B /* RYNetStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762CA2132FD680006474B /* RYNetStateView.m */; };
+		9BB762F62133050F0006474B /* UIImageView+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762DA2133050F0006474B /* UIImageView+RYKit.m */; };
+		9BB762F72133050F0006474B /* UITableView+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762DC2133050F0006474B /* UITableView+RYKit.m */; };
+		9BB762F82133050F0006474B /* UIView+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762DD2133050F0006474B /* UIView+RYKit.m */; };
+		9BB762F92133050F0006474B /* UILabel+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762DF2133050F0006474B /* UILabel+RYKit.m */; };
+		9BB762FA2133050F0006474B /* UIColor+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762E02133050F0006474B /* UIColor+RYKit.m */; };
+		9BB762FB2133050F0006474B /* UITableViewCell+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762E22133050F0006474B /* UITableViewCell+RYKit.m */; };
+		9BB762FC2133050F0006474B /* UIButton+RYKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762E52133050F0006474B /* UIButton+RYKit.m */; };
+		9BB762FD2133050F0006474B /* RYConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762EA2133050F0006474B /* RYConstants.m */; };
+		9BB762FE2133050F0006474B /* RYKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9BB762EC2133050F0006474B /* RYKit.bundle */; };
+		9BB762FF2133050F0006474B /* HeaderModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762EE2133050F0006474B /* HeaderModel.m */; };
+		9BB763002133050F0006474B /* RYNetWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762F12133050F0006474B /* RYNetWorkHelper.m */; };
+		9BB763012133050F0006474B /* RYNetStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB762F42133050F0006474B /* RYNetStateView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,30 +64,30 @@
 		9BB76223213231130006474B /* RYGuardKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RYGuardKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BB76227213231130006474B /* RYGuardKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RYGuardKitDemoUITests.m; sourceTree = "<group>"; };
 		9BB76229213231130006474B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9BB762B02132FD670006474B /* UIImageView+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RYKit.m"; sourceTree = "<group>"; };
-		9BB762B12132FD670006474B /* UITableViewCell+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+RYKit.h"; sourceTree = "<group>"; };
-		9BB762B22132FD670006474B /* UITableView+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RYKit.m"; sourceTree = "<group>"; };
-		9BB762B32132FD670006474B /* UIView+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RYKit.m"; sourceTree = "<group>"; };
-		9BB762B42132FD670006474B /* UIButton+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RYKit.h"; sourceTree = "<group>"; };
-		9BB762B52132FD670006474B /* UILabel+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RYKit.m"; sourceTree = "<group>"; };
-		9BB762B62132FD670006474B /* RYKitHear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYKitHear.h; sourceTree = "<group>"; };
-		9BB762B72132FD670006474B /* UIColor+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RYKit.m"; sourceTree = "<group>"; };
-		9BB762B82132FD670006474B /* UITableView+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RYKit.h"; sourceTree = "<group>"; };
-		9BB762B92132FD670006474B /* UITableViewCell+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RYKit.m"; sourceTree = "<group>"; };
-		9BB762BA2132FD670006474B /* UIImageView+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RYKit.h"; sourceTree = "<group>"; };
-		9BB762BB2132FD670006474B /* UIView+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RYKit.h"; sourceTree = "<group>"; };
-		9BB762BC2132FD670006474B /* UIButton+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RYKit.m"; sourceTree = "<group>"; };
-		9BB762BD2132FD670006474B /* UIColor+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RYKit.h"; sourceTree = "<group>"; };
-		9BB762BE2132FD670006474B /* UILabel+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RYKit.h"; sourceTree = "<group>"; };
-		9BB762C02132FD670006474B /* RYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYConstants.h; sourceTree = "<group>"; };
-		9BB762C12132FD670006474B /* RYConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYConstants.m; sourceTree = "<group>"; };
-		9BB762C32132FD680006474B /* RYKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RYKit.bundle; sourceTree = "<group>"; };
-		9BB762C52132FD680006474B /* HeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderModel.m; sourceTree = "<group>"; };
-		9BB762C62132FD680006474B /* RYNetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetWorkHelper.h; sourceTree = "<group>"; };
-		9BB762C72132FD680006474B /* HeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderModel.h; sourceTree = "<group>"; };
-		9BB762C82132FD680006474B /* RYNetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetWorkHelper.m; sourceTree = "<group>"; };
-		9BB762CA2132FD680006474B /* RYNetStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetStateView.m; sourceTree = "<group>"; };
-		9BB762CB2132FD680006474B /* RYNetStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetStateView.h; sourceTree = "<group>"; };
+		9BB762DA2133050F0006474B /* UIImageView+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+RYKit.m"; sourceTree = "<group>"; };
+		9BB762DB2133050F0006474B /* UITableViewCell+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+RYKit.h"; sourceTree = "<group>"; };
+		9BB762DC2133050F0006474B /* UITableView+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RYKit.m"; sourceTree = "<group>"; };
+		9BB762DD2133050F0006474B /* UIView+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RYKit.m"; sourceTree = "<group>"; };
+		9BB762DE2133050F0006474B /* UIButton+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RYKit.h"; sourceTree = "<group>"; };
+		9BB762DF2133050F0006474B /* UILabel+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+RYKit.m"; sourceTree = "<group>"; };
+		9BB762E02133050F0006474B /* UIColor+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RYKit.m"; sourceTree = "<group>"; };
+		9BB762E12133050F0006474B /* UITableView+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RYKit.h"; sourceTree = "<group>"; };
+		9BB762E22133050F0006474B /* UITableViewCell+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+RYKit.m"; sourceTree = "<group>"; };
+		9BB762E32133050F0006474B /* UIImageView+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+RYKit.h"; sourceTree = "<group>"; };
+		9BB762E42133050F0006474B /* UIView+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RYKit.h"; sourceTree = "<group>"; };
+		9BB762E52133050F0006474B /* UIButton+RYKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RYKit.m"; sourceTree = "<group>"; };
+		9BB762E62133050F0006474B /* UIColor+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RYKit.h"; sourceTree = "<group>"; };
+		9BB762E72133050F0006474B /* UILabel+RYKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+RYKit.h"; sourceTree = "<group>"; };
+		9BB762E92133050F0006474B /* RYConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYConstants.h; sourceTree = "<group>"; };
+		9BB762EA2133050F0006474B /* RYConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYConstants.m; sourceTree = "<group>"; };
+		9BB762EC2133050F0006474B /* RYKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = RYKit.bundle; sourceTree = "<group>"; };
+		9BB762EE2133050F0006474B /* HeaderModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderModel.m; sourceTree = "<group>"; };
+		9BB762EF2133050F0006474B /* RYNetWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetWorkHelper.h; sourceTree = "<group>"; };
+		9BB762F02133050F0006474B /* HeaderModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderModel.h; sourceTree = "<group>"; };
+		9BB762F12133050F0006474B /* RYNetWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetWorkHelper.m; sourceTree = "<group>"; };
+		9BB762F22133050F0006474B /* RYKitHear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYKitHear.h; sourceTree = "<group>"; };
+		9BB762F42133050F0006474B /* RYNetStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetStateView.m; sourceTree = "<group>"; };
+		9BB762F52133050F0006474B /* RYNetStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetStateView.h; sourceTree = "<group>"; };
 		B47E92C46301993AD57CD75F /* Pods-RYGuardKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYGuardKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYGuardKitDemo/Pods-RYGuardKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		C40B405E906486C622A9CF1A /* libPods-RYGuardKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYGuardKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA3A8495D30CE1F11C2B8D95 /* Pods-RYGuardKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYGuardKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYGuardKitDemo/Pods-RYGuardKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		9BB761F7213231120006474B = {
 			isa = PBXGroup;
 			children = (
-				9BB762AE2132FD670006474B /* RYGuardKit */,
+				9BB762D82133050F0006474B /* RYGuardKit */,
 				9BB76202213231120006474B /* RYGuardKitDemo */,
 				9BB7621B213231130006474B /* RYGuardKitDemoTests */,
 				9BB76226213231130006474B /* RYGuardKitDemoUITests */,
@@ -185,74 +185,74 @@
 			path = RYGuardKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		9BB762AE2132FD670006474B /* RYGuardKit */ = {
+		9BB762D82133050F0006474B /* RYGuardKit */ = {
 			isa = PBXGroup;
 			children = (
-				9BB762AF2132FD670006474B /* Category */,
-				9BB762BF2132FD670006474B /* Config */,
-				9BB762C22132FD670006474B /* Source */,
-				9BB762C42132FD680006474B /* NetWork */,
-				9BB762C92132FD680006474B /* Controller */,
+				9BB762D92133050F0006474B /* Category */,
+				9BB762E82133050F0006474B /* Config */,
+				9BB762EB2133050F0006474B /* Source */,
+				9BB762ED2133050F0006474B /* NetWork */,
+				9BB762F22133050F0006474B /* RYKitHear.h */,
+				9BB762F32133050F0006474B /* Controller */,
 			);
 			name = RYGuardKit;
 			path = ../RYGuardKit;
 			sourceTree = "<group>";
 		};
-		9BB762AF2132FD670006474B /* Category */ = {
+		9BB762D92133050F0006474B /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				9BB762B02132FD670006474B /* UIImageView+RYKit.m */,
-				9BB762B12132FD670006474B /* UITableViewCell+RYKit.h */,
-				9BB762B22132FD670006474B /* UITableView+RYKit.m */,
-				9BB762B32132FD670006474B /* UIView+RYKit.m */,
-				9BB762B42132FD670006474B /* UIButton+RYKit.h */,
-				9BB762B52132FD670006474B /* UILabel+RYKit.m */,
-				9BB762B62132FD670006474B /* RYKitHear.h */,
-				9BB762B72132FD670006474B /* UIColor+RYKit.m */,
-				9BB762B82132FD670006474B /* UITableView+RYKit.h */,
-				9BB762B92132FD670006474B /* UITableViewCell+RYKit.m */,
-				9BB762BA2132FD670006474B /* UIImageView+RYKit.h */,
-				9BB762BB2132FD670006474B /* UIView+RYKit.h */,
-				9BB762BC2132FD670006474B /* UIButton+RYKit.m */,
-				9BB762BD2132FD670006474B /* UIColor+RYKit.h */,
-				9BB762BE2132FD670006474B /* UILabel+RYKit.h */,
+				9BB762DA2133050F0006474B /* UIImageView+RYKit.m */,
+				9BB762DB2133050F0006474B /* UITableViewCell+RYKit.h */,
+				9BB762DC2133050F0006474B /* UITableView+RYKit.m */,
+				9BB762DD2133050F0006474B /* UIView+RYKit.m */,
+				9BB762DE2133050F0006474B /* UIButton+RYKit.h */,
+				9BB762DF2133050F0006474B /* UILabel+RYKit.m */,
+				9BB762E02133050F0006474B /* UIColor+RYKit.m */,
+				9BB762E12133050F0006474B /* UITableView+RYKit.h */,
+				9BB762E22133050F0006474B /* UITableViewCell+RYKit.m */,
+				9BB762E32133050F0006474B /* UIImageView+RYKit.h */,
+				9BB762E42133050F0006474B /* UIView+RYKit.h */,
+				9BB762E52133050F0006474B /* UIButton+RYKit.m */,
+				9BB762E62133050F0006474B /* UIColor+RYKit.h */,
+				9BB762E72133050F0006474B /* UILabel+RYKit.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
 		};
-		9BB762BF2132FD670006474B /* Config */ = {
+		9BB762E82133050F0006474B /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				9BB762C02132FD670006474B /* RYConstants.h */,
-				9BB762C12132FD670006474B /* RYConstants.m */,
+				9BB762E92133050F0006474B /* RYConstants.h */,
+				9BB762EA2133050F0006474B /* RYConstants.m */,
 			);
 			path = Config;
 			sourceTree = "<group>";
 		};
-		9BB762C22132FD670006474B /* Source */ = {
+		9BB762EB2133050F0006474B /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				9BB762C32132FD680006474B /* RYKit.bundle */,
+				9BB762EC2133050F0006474B /* RYKit.bundle */,
 			);
 			path = Source;
 			sourceTree = "<group>";
 		};
-		9BB762C42132FD680006474B /* NetWork */ = {
+		9BB762ED2133050F0006474B /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
-				9BB762C52132FD680006474B /* HeaderModel.m */,
-				9BB762C62132FD680006474B /* RYNetWorkHelper.h */,
-				9BB762C72132FD680006474B /* HeaderModel.h */,
-				9BB762C82132FD680006474B /* RYNetWorkHelper.m */,
+				9BB762EE2133050F0006474B /* HeaderModel.m */,
+				9BB762F02133050F0006474B /* HeaderModel.h */,
+				9BB762EF2133050F0006474B /* RYNetWorkHelper.h */,
+				9BB762F12133050F0006474B /* RYNetWorkHelper.m */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
 		};
-		9BB762C92132FD680006474B /* Controller */ = {
+		9BB762F32133050F0006474B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9BB762CA2132FD680006474B /* RYNetStateView.m */,
-				9BB762CB2132FD680006474B /* RYNetStateView.h */,
+				9BB762F42133050F0006474B /* RYNetStateView.m */,
+				9BB762F52133050F0006474B /* RYNetStateView.h */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -374,7 +374,7 @@
 				9BB76210213231130006474B /* LaunchScreen.storyboard in Resources */,
 				9BB7620D213231130006474B /* Assets.xcassets in Resources */,
 				9BB7620B213231130006474B /* Main.storyboard in Resources */,
-				9BB762D42132FD680006474B /* RYKit.bundle in Resources */,
+				9BB762FE2133050F0006474B /* RYKit.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,20 +453,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BB762CC2132FD680006474B /* UIImageView+RYKit.m in Sources */,
-				9BB762CD2132FD680006474B /* UITableView+RYKit.m in Sources */,
-				9BB762D62132FD680006474B /* RYNetWorkHelper.m in Sources */,
-				9BB762D72132FD680006474B /* RYNetStateView.m in Sources */,
-				9BB762D52132FD680006474B /* HeaderModel.m in Sources */,
-				9BB762CF2132FD680006474B /* UILabel+RYKit.m in Sources */,
-				9BB762D22132FD680006474B /* UIButton+RYKit.m in Sources */,
-				9BB762CE2132FD680006474B /* UIView+RYKit.m in Sources */,
+				9BB762F62133050F0006474B /* UIImageView+RYKit.m in Sources */,
+				9BB762F72133050F0006474B /* UITableView+RYKit.m in Sources */,
+				9BB763002133050F0006474B /* RYNetWorkHelper.m in Sources */,
+				9BB763012133050F0006474B /* RYNetStateView.m in Sources */,
+				9BB762FF2133050F0006474B /* HeaderModel.m in Sources */,
+				9BB762F92133050F0006474B /* UILabel+RYKit.m in Sources */,
+				9BB762FC2133050F0006474B /* UIButton+RYKit.m in Sources */,
+				9BB762F82133050F0006474B /* UIView+RYKit.m in Sources */,
 				9BB76208213231130006474B /* ViewController.m in Sources */,
-				9BB762D02132FD680006474B /* UIColor+RYKit.m in Sources */,
+				9BB762FA2133050F0006474B /* UIColor+RYKit.m in Sources */,
 				9BB76213213231130006474B /* main.m in Sources */,
-				9BB762D32132FD680006474B /* RYConstants.m in Sources */,
+				9BB762FD2133050F0006474B /* RYConstants.m in Sources */,
 				9BB76205213231120006474B /* AppDelegate.m in Sources */,
-				9BB762D12132FD680006474B /* UITableViewCell+RYKit.m in Sources */,
+				9BB762FB2133050F0006474B /* UITableViewCell+RYKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,13 +638,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RYGuardKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "runya-lsj.com.RYGuardKitDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -655,13 +656,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RYGuardKitDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "runya-lsj.com.RYGuardKitDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
